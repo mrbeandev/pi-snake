@@ -1,0 +1,20 @@
+{
+  "name": "pi-snake-timepass",
+  "version": "1.0.0",
+  "description": "A centered Snake game that pops up automatically while Pi is working. Features 'Hard' and 'Easy' modes, adjustable speed, and wall wrap-around.",
+  "keywords": ["pi-package"],
+  "homepage": "https://github.com/mrbeandev/pi-snake",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbeandev/pi-snake.git"
+  },
+  "pi": {
+    "extensions": ["./extensions/snake-timepass.ts"],
+    "image": "./demo.png"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "typebox": "*"
+  }
+}
