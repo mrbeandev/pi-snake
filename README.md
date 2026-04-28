@@ -18,7 +18,13 @@ A centered Snake game for the Pi coding agent that pops up automatically to keep
 
 ## Installation
 
-Install directly via Pi:
+Install directly via Pi from npm (recommended):
+
+```bash
+pi install npm:pi-snake-timepass
+```
+
+Or install the bleeding-edge version from GitHub:
 
 ```bash
 pi install git:github.com/mrbeandev/pi-snake
